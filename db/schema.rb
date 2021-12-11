@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 2021_12_08_135254) do
 
-  create_table "articles", force: :cascade do |t|
+  create_table "cards", force: :cascade do |t|
     t.string "title"
     t.text "subtitle"
     t.string "image"

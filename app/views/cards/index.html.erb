@@ -1,0 +1,9 @@
+<ul>
+  <% @cards.each do |card| %>
+    <li>
+      <%= card["title"] %>
+      <%= card["subtitle"] %>
+      <img src="<%= card["image"] %>" alt="<%= card["title"] %>" />
+    </li>
+  <% end %>
+</ul>
